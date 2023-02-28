@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url(./assets/fonts/TiltNeon-Regular.ttf);
+
+body {
+    font-family: sans-serif;
+    font-size: 15px;
+    width: 100%;
+    min-height: 20px;
+}
+
+h1 {
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.wrapper {
+    height: 250px;
+    width: 97%;
+}
+
+.wrapper__1 {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    height: 250px;
+}
+
+.button {
+width: 500px;
+height: 70px;
+margin-left: 50px;
+background-color: black;
+color: white;
+font-size: 20px;
+}
+
+.grand-total {
+    margin-right: 120px;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 400px auto 300px;
+    grid-template-rows: 250px;
+    border: 1px solid black;
+    position: relative;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+p {
+    word-spacing: 20px;
+    padding-bottom: 10px;
+}
+
+.block_text-name {
+    font-weight: 900;
+}
+
+.block_text-characteristics {
+    font-weight: 600;
+}
+
+.block_text, .block_sum, .block_img {
+    height: 250px;
+}
+
+.block_text, .block_sum {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.block_img_clothes {
+    height: 99%;
+    size: cover;
+    position: absolute;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.block_sum-price, .amount {
+    color: blue;
+    font-weight: 800;
+    font-size: 20px;
+}
